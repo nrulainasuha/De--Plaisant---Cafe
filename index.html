@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>De Plaisant Café</title>
+    <link rel="stylesheet" href="style index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+      <div class="max-width">
+          <div class="logo-image">
+              <img src="image/LOGO DE' PLAISANT CAFE.png" class="logo-image">
+        </div>
+          <div class="logo"><a href="index.html">De' Plaisant<span> Café</span></a></div>
+          <ul class="menu">
+              <li><a href="about us.html" class="menu-btn">ABOUT US</a></li>
+              <li><a href="menu.html" class="menu-btn">MENU</a></li>
+              <li><a href="careers.html" class="menu-btn">CAREERS</a></li>
+              <li><a href="contact us.html" class="menu-btn">CONTACT US</a></li>
+              <li><a href="order online.html"><i class="fa fa-shopping-basket"></i></a></li>
+              <li><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
+          </ul>
+      </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="image/Menu_Puding Pulut Hitam.JPG" style="height:350px;width:100%">
+  <div class="text">Puding Pulut Hitam</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="image/Menu_Creamy Puff.JPG" style="height:350px;width:100%">
+    <div class="text">Creamy Puff</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="image/Menu_Hazelnut Latte.JPG" style="height:350px;width:100%">
+    <div class="text">Hazelnut Latte</div>
+  </div>
+  
+</div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+
+  
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+  
+
+    <br>
+    <br>
+    <div class="h1">
+    <h1> De' Plaisant Cafe'</h1>
+    </div>
+    <br>
+    <br>
+    <section id="image text">
+      <div class="service-box">
+          <div class="single-service">
+              <img src="image/Menu Season_Mooncake.jpg">
+              <div class="overlay"></div>
+              <div class="service-desc">
+                  <h2>Whats New !</h2>
+                  <h3>Snowy Mooncake</h3>
+                  <h3>Your Chinese New Year are back !</h3>
+                  <hr>
+                  <p>Sweet lotus filling which gives it the perfect flavor balance for you! So what are you waiting for, Get yours now!</p>
+              </div>
+          </div>
+          <div class="single-service">
+              <img src="image/Menu_Onde Onde.jpg">
+              <div class="overlay"></div>
+              <div class="service-desc">
+                  <h3>Order Now !</h3>
+                  <hr>
+                  <p>Let's get our cafe menu with a variety of desserts from a combination of western and traditional.
+                  If you want to order online just click the trolley below</p>
+                    <a href="order online.html"><i class="fa fa-shopping-basket"></i></a>
+              </div>
+          </div>
+          </section>
+
+ <hr class="solid">
+  <br>
+    <table>
+    <tr>
+      <th>About Us</a></th>
+      <th>Menu</th>
+      <th>Careers</th>
+      <th>Order Online</th>
+      <th>Contact Us</th>
+    </tr>
+    <tr>
+      <td>Background</td>
+      <td>Main Signature</td>
+      <td>Current Openings</td>
+      <td>Pickup</td>
+      <td>Get in touch</td>
+    </tr>
+    <tr>
+      <td>Vision & Mission</td>
+      <td>Combo/ Set</td>
+      <td>Apply Now</td>
+      <td>Delivery</td>
+      <td>Feedback</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Beverages</td>
+    </tr>
+  </table>
+<br>
+<hr class="solid">
+<br>
+<br>
+
+  <audio controls autoplay>
+      <source src="audio/喫茶店 (coffee shop) - frad __ aesthetic music no copyright.mp3" type="audio/ogg">
+      <source src="audio/喫茶店 (coffee shop) - frad __ aesthetic music no copyright.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+ </audio>
+
+  <div class="footer">
+      <h3>De' Plaisant<span style="color: #faf7cb"> Café</span></h3>
+      <p>Sweet delights made affordable</p>
+      <h4>Follow us:</h4>
+        <ul>
+            <a href="https://instagram.com/deplaisant_cafe?utm_medium=copy_link" class="fa fa-instagram"></a>
+        </ul>
+      <h5>2022 &copy De' Plaisant Café. All right reserved.</h5>
+      </div>
+      </body>
+      </html>
+ 
+  
+  
